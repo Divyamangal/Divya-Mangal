@@ -2,6 +2,7 @@ body{
     border: 23px solid #ededed;
     margin: 0;
     background-color:;
+    font-family: "Helvetica"
 }
 * {
     box-sizing: border-box;
@@ -17,6 +18,7 @@ body{
     position: relative;
     top: 50%;
     left: 50%;
+    font-family: "Helvetica";
     -webkit-transform: translateX(-50%) translateY(-50%) translateZ(0);
     transform: translateX(-50%) translateY(-50%) translateZ(0);
     width: 370px;
@@ -57,7 +59,7 @@ body{
     border-radius: 50%;
     color: #fff;
     text-align: center;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 13px;
 }
 
@@ -112,8 +114,8 @@ body{
 
 .card__body {
     position: relative;
-    height: 120px;
-    padding: 20px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
     -webkit-transition: height 0.5s;
     transition: height 0.5s;
 }
@@ -137,11 +139,12 @@ body{
 
 .card__title {
     margin: 0;
-    padding: 0 0 10px 0;
-    color: #000;
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
+    padding: 0 0 5px 10px;
+    color: #191919;
+    font-size: 24px;
+    font-family: "Helvetica";
+    font-weight: 500;
+   
 
 }
 
@@ -158,6 +161,7 @@ body{
     right: 20px;
     bottom: 56px;
     margin-top: 6rem;
+    font-family: "Helvetica";
     padding: 0;
     color: #666C74;
     line-height: 23px;
@@ -220,7 +224,7 @@ table tr td{
 .head table td a{
     display: block;
     text-decoration: none;
-    color: #666;
+    color: #2F2F2F;
     font-weight: 500;
     opacity: 1;
 }
@@ -229,7 +233,7 @@ table tr td{
     display: block;
     text-decoration: none;
     font-weight: 500;
-    opacity: .81;}
+    opacity: .50;}
 
 a{
     display: block;
@@ -245,17 +249,18 @@ a{
     letter-spacing: .5px;
     margin-bottom: 7px;
     color: #242321;
-    opacity: .85;
+    opacity: .50;
 }
 .title{
     text-align:center;
+    font-family: "Helvetica";
 }
 .intro1{
     margin-left: 2px;
     line-height: 1.5;
     font-size: 30px;
     margin-top: 90px;
-    color: #111111;
+    color: #2F2F2F;
     letter-spacing: .5px;
     font:bolder;
     font-weight: 800;
@@ -267,13 +272,14 @@ a{
     font-size: 20px;
     margin-top: 5px;
     margin-bottom: 50px;
-    color:#a4a4a4;
+    color:#a1a1a1;
     letter-spacing: .5px;
     padding: vw;
     margin-left: 21vw;
     margin-right: 21vw;
     text-align: center;
-    margin-bottom:6rem;
+    margin-bottom:8rem;
+    font-weight: 400;
 }
 
 .one{
@@ -296,7 +302,7 @@ a{
 }
  .onea:hover{
     display: inline-block;
-    opacity: .90;
+    opacity: .50;
 }
     
 .main{

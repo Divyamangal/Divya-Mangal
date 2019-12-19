@@ -8,6 +8,19 @@ body{
     margin: auto;
     font-family: 'Questrial', sans-serif;
 }
+.textMain{
+    letter-spacing: 0px;
+    font-size: 21px;
+    line-height: 38px;
+    margin: 24px auto;
+    margin-left: 17vw;
+    margin-right: 17vw;
+    color:#535353;
+}
+.image(
+    width: 87%;
+    margin: 0;
+    )
 
 table{
     width: 100%;
