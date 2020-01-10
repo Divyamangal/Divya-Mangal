@@ -9,7 +9,7 @@ body{
     margin: 0;
     padding: 0;
 }
-
+#more {display: none;}
 /**
 * CARD
 **/
@@ -41,6 +41,11 @@ body{
 
 .card:hover {
     box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
+}
+
+.viewmore:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05);
 }
 
 
@@ -137,9 +142,26 @@ body{
     line-height: 25px;
 }
 
+.viewmore {
+    margin-top: 20px;
+    margin-left:35vw; 
+    padding: 15px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: 'Helvetica';
+    font-kerning: 1px;
+    font-weight: 550;
+    width: 190px;
+    height: 60px;
+    background-color: #FFFFFF;
+    border: none;
+    color: #333138;
+    box-shadow: 0px 4px 12px rgba(5, 4, 1, 0.08);
+}
+
 .card__title {
     margin: 0;
-    padding: 0 0 5px 10px;
+    padding: 0 0 5px 8px;
     color: #191919;
     font-size: 24px;
     font-family: "Helvetica";
@@ -150,20 +172,21 @@ body{
 
 .card__subtitle {
     margin: 0;
-    padding: 0 0 10px 0;
-    font-size: 19px;
-    color: coral;
+    padding: 5px 30px 10px 11px;
+    font-size: 15px;
+    color: #a1a1a1;
+    font-family: "Helvetica";
 }
 
 .card__description {
     position: absolute;
-    left: 20px;
-    right: 20px;
-    bottom: 56px;
+    left: 30px;
+    right: 35px;
+    bottom: 58px;
     margin-top: 6rem;
     font-family: "Helvetica";
     padding: 0;
-    color: #666C74;
+    color: #535353;
     line-height: 23px;
     opacity: 0;
     -webkit-transform: translateY(45px);

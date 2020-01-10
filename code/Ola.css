@@ -2,6 +2,7 @@ body{
     border: 23px solid #ededed;
     margin: 0;
     background-color:;
+   
 }
 .wrapper{
     width: 87%;
@@ -13,8 +14,8 @@ body{
     font-size: 21px;
     line-height: 22px;
     margin: 24px auto;
-    margin-left: 17vw;
-    margin-right: 17vw;
+    margin-left: 22vw;
+    margin-right: 22vw;
     color:#535353;
 }
 table{
