@@ -1,14 +1,203 @@
 body{
-    margin: 0;
     border: 23px solid #ededed;
+    margin: 0;
     background-color:;
-    position: relative;
-    font-family: 'Questrial', sans-serif;
-    height: auto;
-    min-height: 100%;
+    font-family: "Helvetica"
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*.image {
+
+    height: 2px;
+    border-radius: 4px;
+    transition: var(--transition);
+
+}
+image:hover{background:url('../pics/about.png')}*/
+.image img{border-radius: 10px;
+    transition: var(--transition);
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .2s ease-in-out;  
+    }
+
+img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+.wrapper{
+    width: 87%;
+    margin: auto;
+    font-family: 'Helvetica', sans-serif;
+}
+.textMain{
+    letter-spacing: 0px;
+    font-size: 21px;
+    line-height: 38px;
+    margin: 24px auto;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color:#535353;
+    
+}
+.content{color: #7B7B7B; text-decoration-line: underline}
+a:hover{color:#0054BE;}
+
+.textSide{
+      
+    display: flex;
+    flex-direction: column;
+    letter-spacing: 0px;
+    font-size: 19px;
+    line-height: 28px;
+    margin: 24px auto;
+    margin-left: 8vw;
+    margin-right: 3vw;
+    color: #191919;
+    opacity: 0.7;
+ }          
+
+
+table{
+    width: 100%;
+    margin-top: 60px;
+}
+
+table tr td{
+    font-size: 16px;
+    padding: 0;
+    
+}
+.head table td a{
+    display: block;
+    text-decoration: none;
+    color: #666;
+    font-weight: 500;
+    opacity: 1;
+}
+
+.head table td a:hover{
+    display: block;
+    text-decoration: none;
+    font-weight: 500;
+    opacity: .81;}
+
+
+
+.one { padding-top:0px;}
+
+.title {font-size:2em; text-align:center; margin-top: 100px; margin-bottom:-10; color: #282626;}
+
+.sub-title {font-size:1.2em; text-align:center; letter-spacing: 3px;}
+.text {letter-spacing: .5px; font-size:16; line-height:1.7; margin: 24px auto;}
+
+span {letter-spacing: .6px; font-size:18; font-weight: 500; color: #242321; font-weight: 600; opacity: .85;}
+
+.three {margin-top: 30px;}
+
+#top{
+    margin-top: 30px;
+    width: 74%;
+    margin-left: 0;
+}
+.tm{
+    text-decoration: none;
+    display: inline;
+    color: #bf202e;
+}
+
+.threer {float:right; width:25%;}
+
+.five{
+    width: 75%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
+}
+
+.seven{
+    width: 85%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
+}
+.ship{
+    width: 100%;
+    margin: 10px auto 50px auto;
+    display: block;
+    
 }
 
 
+.lowernav table {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.lowernav table td
+{ 
+    font-size: 1.2em;
+    opacity: .85;
+}
+
+.lowernav table td:hover
+{ 
+    font-size: 1.2em;
+    opacity: 1;
+}
+
+
+.footer {
+    border-top: 80px solid white;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-size: 16px;
+    font-family: 'Questrial', sans-serif;
+}
+
+.footer ul{
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.footer ul li{
+    display:inline-block;
+    margin: 0;
+    padding: 15px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: #6c6c6c;
+}
+
+.fb a:hover{color: #3b5998;}
+.li a:hover{color: #0077B5;}
+.in a:hover{color: #010101;}
+.dr a:hover{color: #ea4c89;}
+.be a:hover{color: #1769ff;}
+.up a:hover{color: #8c1aff;}
+
+
+.footer p{
+    margin-bottom: 5px;
+    color: #6c6c6c;
+    font-size: 14px; margin-top: 18px; letter-spacing: .5px; display: inline;}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0vw;
+    margin-right: 5vw;
+}
 
 .heading{
     font-size: 28px;
@@ -21,6 +210,7 @@ body{
 }
 
 .intro{
+
     margin-left: 2px;
     line-height: 1.5;
     font-size: 16px;
@@ -73,11 +263,11 @@ p.texttitle{
 }
 
 .footer {
-    
-    
-    
-    padding-top: 10px;
-    margin-bottom: 18px;
+   border-top: 100px solid white;
+    background-color: #ededed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
     font-size: 16px;
     font-family: 'Questrial', sans-serif;
 }
