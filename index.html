@@ -9,26 +9,99 @@
   gtag('js', new Date());
 
   gtag('config', 'UA-156010715-1');
+
 </script>
+
+<style type="text/css">
+	
+  @media screen and (max-width: 767px) {
+
+  table.top {
+  	/*padding: 15px;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*flex-wrap: wrap;*/
+  }
+
+	td.name {
+		column-width: 100%;
+		align-self: center;
+    	margin-bottom: 1em;		
+    	text-align: center;
+	}
+
+
+	.underline {
+		text-align: center;
+		display: inline-block;
+	    vertical-align: middle;
+	    -webkit-transform: perspective(1px) translateZ(0);
+	    transform: perspective(1px) translateZ(0);
+	    box-shadow: 0 0 1px transparent;
+	    position: relative;
+		transition-property: all;
+	    transition-duration: .3s;
+	    transition-timing-function: ease-out;
+	}
+
+	.underline:before {
+	    content: "";
+	    position: absolute;
+	    z-index: -1;
+	    left: 0;
+	    right: 100%;
+	    border-radius: 1px;
+	    bottom: 0;
+	    background: rgba(255,185,0,.6);
+	    height: 3px;
+	    transition-property: right;
+	    transition-duration: .3s;
+	    transition-timing-function: ease-out;
+	}
+
+}
+
+td.name {
+	/*text-align: left;*/
+    display: block;
+    padding: 15px;
+}
+
+table.top {
+	width: 100%;
+	display: block;
+	padding: 15px;
+}
+
+.underline {
+	text-align: right;
+	padding: 15px;
+}
+
+
+
+</style>
 
     	 <link rel="shortcut icon" type="image/png" href="pics/me.png"/>
         <link rel="stylesheet" href="code/index.css">
         <link href="https://fonts.googleapis.com/css?family=Caveat|Questrial" rel="stylesheet">
         
         <title>Divya Mangal</title>
-   <body>
+   <body style="display: 'block'"> 
        <div class="wrapper">
 	   <div class="head">
-           <table>
-               <col width="70%">
-               <col width="10%">
-               <col width="10%">
-		<col width="10%">
+
+           <table class="top">
+           	  <col align="left" width="70%">
+               <col align="right" width="10%">
+               <col align="right" width="10%">
+				<col align="right" width="10%">
+        
             <tr>
-                <td><a href="index.html" style="font-family:  'Helvetica'; font-size: 28px;">Divya Mangal</a></td>
-                <td style=" text-align: right; "><a href="index.html"; style="color: #7B7B7B;">Portfolio</a>
-                <td style="text-align: right;"><a href="code/about.html">About</a>
-		<td style="text-align: right;"><a href="pics/Divya Resume.pdf" target="_blank">Resume</a>
+                <td class="name"><a href="index.html" style="font-family:  'Helvetica'; font-size: 28px;">Divya Mangal</a></td>
+                <td style=" text-align: right; " class="underline"><a href="index.html"; style="color: #7B7B7B;">Portfolio</a>
+                <td style="text-align: right;" class="underline"><a href="code/about.html">About</a>
+		<td style="text-align: right; " class="underline"><a href="pics/Divya Resume.pdf" target="_blank">Resume</a>
      
                 </td>
 
