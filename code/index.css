@@ -14,7 +14,10 @@ body{
 * CARD
 **/
 
+
 .card {
+    margin-left:10px; 
+    margin-right:10px;
     position: relative;
     top: 50%;
     left: 50%;
@@ -279,7 +282,7 @@ a{
     font-family: "Helvetica";
 }
 .intro1{
-    margin-left: 2px;
+    /*margin-left: 2px;*/
     line-height: 1.5;
     font-size: 30px;
     margin-top: 90px;
@@ -320,7 +323,7 @@ a{
 .onea{
     display: inline-block;
     margin-right: 5px;
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     
 }
  .onea:hover{
@@ -333,7 +336,7 @@ a{
 }
 
 #two{
-    margin-left: 5px;
+    /*margin-left: 5px;*/
     margin-right: 5px;
     margin-top: 30px;
 }
