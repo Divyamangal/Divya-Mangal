@@ -19,6 +19,17 @@ table tr td{
     padding: 0;
     
 }
+.icon{
+    transition: var(--transition) !important;
+    height: 22px;          
+    -webkit-filter: grayscale(1) !important; /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .2s ease-in-out !important;  
+}
+.icon:hover {
+  filter: gray !important;
+    -webkit-filter: grayscale(0) !important;
+    -webkit-transform: scale(1.01) !important;
+  }
 .head table td a{
     display: block;
     text-decoration: none;

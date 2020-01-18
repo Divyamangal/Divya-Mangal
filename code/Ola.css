@@ -1,7 +1,6 @@
 body{
     border: 23px solid #ededed;
     margin: 0;
-    background-color:;
    
 }
 .wrapper{
@@ -35,6 +34,17 @@ table tr td{
     font-weight: 500;
     opacity: 1;
 }
+.icon{
+    transition: var(--transition) !important;
+    height: 22px;          
+    -webkit-filter: grayscale(1) !important; /* Webkit Nightlies & Chrome Canary */
+        -webkit-transition: all .2s ease-in-out !important;  
+}
+.icon:hover {
+  filter: gray !important;
+    -webkit-filter: grayscale(0) !important;
+    -webkit-transform: scale(1.01) !important;
+  }
 
 .head table td a:hover{
     display: block;

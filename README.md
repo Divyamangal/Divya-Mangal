@@ -1,3 +1,2 @@
-# divyamangal.github.io
-this project is live at http://divyamangal.github.io
-
+# lakshya1297.github.io
+self website
